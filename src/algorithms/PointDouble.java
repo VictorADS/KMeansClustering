@@ -5,7 +5,6 @@ public class PointDouble {
  
     private double x = 0;
     private double y = 0;
-    private int cluster_number = 0;
  
     public PointDouble(double x, double y)
     {
@@ -30,14 +29,6 @@ public class PointDouble {
     
     public double getY() {
         return this.y;
-    }
-    
-    public void setCluster(int n) {
-        this.cluster_number = n;
-    }
-    
-    public int getCluster() {
-        return this.cluster_number;
     }
     
     public String toString(){
